@@ -1349,6 +1349,20 @@ entries:
   citylens:
   - apiVersion: v2
     appVersion: 1.18.3
+    created: "2025-10-29T12:57:03.542054605Z"
+    description: A Helm chart for Kubernetes to deploy Citylens service
+    digest: a07b2614705d729b17243d5eea1ebda7fc9ffdc5916c9e2eaa6602b908a4e819
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: citylens
+    type: application
+    urls:
+    - https://github.com/2gisonpremtemp/on-premise-helm-charts-dev/releases/download/citylens-2.8.0/citylens-2.8.0.tgz
+    version: 2.8.0
+  - apiVersion: v2
+    appVersion: 1.18.3
     created: "2025-10-21T12:40:25.0672247Z"
     description: A Helm chart for Kubernetes to deploy Citylens service
     digest: 479ded3ca02b937fa9beb08310926c79b6f311e8e332cad4636a07cfc46770ec
@@ -2076,6 +2090,23 @@ entries:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/citylens-1.6.1/citylens-1.6.1.tgz
     version: 1.6.1
   citylens-routes-ui:
+  - apiVersion: v2
+    appVersion: 1.4.0
+    created: "2025-10-29T12:57:03.715077189Z"
+    dependencies:
+    - name: generic-chart
+      repository: file://../generic-chart
+      version: '>=0'
+    description: A Helm chart for Kubernetes to deploy Citylens UI service
+    digest: fdd5290f6f24a2bf2960776f8db22b5b486b74512e170e54e4f8c625d7e84328
+    maintainers:
+    - email: devops@2gis.ru
+      name: 2gis
+    name: citylens-routes-ui
+    type: application
+    urls:
+    - https://github.com/2gisonpremtemp/on-premise-helm-charts-dev/releases/download/citylens-routes-ui-2.8.0/citylens-routes-ui-2.8.0.tgz
+    version: 2.8.0
   - apiVersion: v2
     appVersion: 1.4.0
     created: "2025-10-21T12:40:25.32995452Z"
@@ -3378,6 +3409,21 @@ entries:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/floors-api-1.9.1/floors-api-1.9.1.tgz
     version: 1.9.1
   generic-chart:
+  - apiVersion: v2
+    created: "2025-10-29T12:57:03.874570295Z"
+    description: Generic library Helm chart for 2Gis
+    digest: bb38011d4e77301629d322bba190f79f5e7dee439cba068953e1613422307bbd
+    keywords:
+    - library
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: generic-chart
+    type: library
+    urls:
+    - https://github.com/2gisonpremtemp/on-premise-helm-charts-dev/releases/download/generic-chart-2.77.0/generic-chart-2.77.0.tgz
+    version: 2.77.0
   - apiVersion: v2
     created: "2025-09-30T13:50:18.324946839Z"
     description: Generic library Helm chart for 2Gis
@@ -27919,4 +27965,4 @@ entries:
     urls:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/zookeeper-1.5.2/zookeeper-1.5.2.tgz
     version: 1.5.2
-generated: "2025-10-21T12:40:25.594552451Z"
+generated: "2025-10-29T12:57:03.878523946Z"
